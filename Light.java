@@ -91,8 +91,7 @@ public class Light {
   }
 
   public void sit(){
-
-    printLn("You sit in your " + chair.getColor() + "chair light. On a scale from 1-10 on how comfortable it is, it's a " + comfort + ". It's " + lumens + "lumens bright. Now you can enjoy a book!");
+    printLn("You sit in your " + chair.getColor() + " chair light. On a scale from 1-10 on how comfortable it is, it's a " + comfort + ". It's " + lumens + " lumens bright. Now you can enjoy a book!");
   }
   
   public String toString(){
